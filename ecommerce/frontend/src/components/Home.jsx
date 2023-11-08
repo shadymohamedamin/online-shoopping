@@ -58,7 +58,7 @@ export default function Home() {
     //alert(e.target.value);
     const obj={
       name:e.target.value,
-      type:type,
+      type:type, 
     }
     //alert(obj.type);
     const result=await axios.post('http://localhost:5000/api/products/category',obj);
